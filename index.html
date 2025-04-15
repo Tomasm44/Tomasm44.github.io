@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculum Vitae</title>
+  <!-- cdnj bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <!-- link css -->
+  <link rel="stylesheet" href="./assets/style/style.css">
+  <!-- link a js -->
+  <script src="./assets/scripts/index.js" defer></script>
+  <!-- link para letras -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans&family=Raleway:wght@700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Salsa&display=swap" rel="stylesheet">
+  <!-- link iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-primary">
+    <div class="container-fluid">
+      <h2>CV PORTAFOLIOO</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      <!-- </button> -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"><i class="fa-regular fa-file"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/portafolio.html"><i class="fa-regular fa-folder-open"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./assets/certificados/certificadodetitulo.pdf"><i class="fa-solid fa-certificate"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./assets/certificados/certificadoexcel.pdf"><i class="fa-regular fa-file-excel"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/test.html"><i class="fa-solid fa-trash"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Section fotografia principal -->
+  <header>
+    <section class="titulos">
+      <div>
+        <h1>Tomás Briones</h1><br>
+        <h2>Curriculum Vitae</h2><br><br>
+        <h3>Sobre Mi</h3><br>
+        <p>Constructor civil con 3 años
+            de experiencia <br> relacionada
+            en el rubro de la construcción.<br> 
+            Me considero una persona responsable y enfocada. <br>
+            Buscando siempre aprender y dar lo mejor.
+        </p>
+        <div class="video-preview" onclick="playVideo()">
+          <img src="./assets/img/WIN_20250412_20_06_16_Pro.jpg" alt="preview">
+          <div class="play-button">&#9658;</div>
+      </div>
+      
+      <div class="video-container" id="videoContainer" style="display:none;">
+          <video id="videoReal" width="200" height="200" controls>
+              <source src="./assets/videos/este.mp4" type="video/mp4">
+          </video>
+      </div>
+      </div>
+      <div>
+        <img src="./assets/img/yo.jpeg" alt="imagen principal">
+        <ul>
+          <h4>Datos personales</h4>
+          <li><i class="fa-solid fa-envelope"></i><span> tomas.briones6@gmail.com</span></li>
+          <li><i class="fa-solid fa-phone-flip"></i><span> +56972322863</span></li>
+          <li><i class="fa-solid fa-flag"></i><span> Chilena</span></li>
+          <li><i class="fa-solid fa-location-pin"></i><span> Santiago Centro, av san pablo 1340</span></li>
+      </ul>      
+  </div>
+      </div>
+    </section> 
+  </header>
+  
+  <main class="container1">
+    <div class="seccion1 ">
+      <!-- card 1 -->
+      <div class="card" style="width: 36rem;">
+        <img src="./assets/img/icclogo.png" class="card-img-top" alt="logo icc">
+        <div class="card-body">
+          <h5 class="card-title">Constructora ICC</h5>
+              <h4>Julio/2022-Septiembre/2023 <br> Profesional de Terreno.</h4>
+                <ol>
+                    <li>Planificación de trabajos en terreno.</li>
+                    <li>Modificación planos en AutoCAD.</li>
+                    <li>Cotización de materiales.</li>
+                    <li>Realizar comparativo de precios.</li>
+                    <li>Logística en procesos constructivos</li>
+                    <li>Liderazgo de equipo</li>
+                    <li>trato directo con el cliente</li>
+                </ol>
+            </div>
+        </div>
+      
+
+      <!-- card 2 -->
+      <div class="card" style="width: 36rem;">
+        <img src="./assets/img/ebema.jpg" class="card-img-top" alt="logo Ebema">
+          <div class="card-body">
+            <h5 class="card-title">Ebema</h5>
+              <h4>Noviembre/2023-Actualidad <br> Administrativo de plantas</h4>
+                <ol>
+                    <li>Logistica en despacho de camiones</li>
+                    <li>Manejo software SAP</li>
+                    <li>Manejo de software Graphico</li>
+                    <li>Coordinación con Clientes/Cubicadores/ operarios de planta</li>
+                    <li>Contabilización de materiales</li>
+                    <li>verificación de calidad de los materiales  fabricados</li>
+                    <li>Controles de planta</li>
+                </ol>
+          </div>
+      </div>
+    </div> 
+  </main>  
+
+  <aside class="container2">
+    <section class="estudios-seccion">
+      <h4>Estudios</h4>
+<div class="estudios">
+    <ul>
+        <li>
+            <h5>Ingeniería en Construcción Civil</h5>
+            <ul>
+                <li>Universidad Tecnológica de Chile Inacap</li>
+                <li>Carrera de Construcción Civil. 
+                    (<a href="./assets/certificados/certificadodetitulo.pdf">Certificado</a>)
+                    (Marzo 2017 - Agosto 2021)
+                </li>
+                <li>Práctica laboral en arquitectura y construcciones - Emilio Francisco Cuneo Fuentes E.I.R.L.
+                    (Septiembre 2021 - Diciembre 2021)
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            <h5>Formación Complementaria</h5>
+            <ul>
+                <li>Desafío Latam</li>
+                <li>Bootcamp Fullstack JavaScript
+                    (Febrero 2025 - Actualidad)
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            <h5>Cursos Técnicos</h5>
+            <ul>
+                <li>Curso de Manejo Intermedio de la Planilla de Cálculo Excel para Windows.
+                    (<a href="./assets/certificados/certificadoexcel.pdf">Certificado</a>)
+                </li>
+                <li>Pontificia Universidad Católica de Chile
+                    (Abril 2024 - Septiembre 2024)
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+
+      <section class="Habilidades">
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Habilidades y Competencias</button>
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Habilidades y Competencias</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <h2>Habilidades</h2>
+                  <p>Habilidades Técnicas</p>
+                  <ul>
+                      <li>📊 Software de Gestión: SAP</li>
+                      <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 64%">64%</div>
+                      </div>
+                      <li>📐 Diseño y Modelado: AutoCAD, BIM</li>
+                      <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 73%">73%</div>
+                      </div>
+                      <li>📑 Ofimática y Análisis de Datos:  Excel (tablas dinámicas, macros, análisis de datos)</li>
+                      <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 40%">40%</div>
+                      </div>
+                      <li>💻 Programación y Desarrollo Web: <br> HTML, CSS, JavaScript, Python</li>
+                      <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 50%">50%</div>
+                      </div>
+                  </ul>
+                <h2>Competencias</h2>
+                  <p>Competencias Profesionales</p>
+                  <ul>
+                      <li>🏆 Liderazgo y Gestión de Equipos – <br> Experiencia liderando equipos y <br> coordinando procesos
+                          logísticos.
+                      </li>
+                      <li>🤝 Manejo de Clientes y Negociación – <br> Trato directo con clientes profesionales, proveedores y
+                          transportistas.</li>
+                      <li>📦 Gestión Logística y Coordinación – <br> Organización de operaciones con operadores de grúa,
+                          <br>cubicadores y
+                          otros profesionales.</li>
+                      <li>🔍 Resolución de Problemas – <br> Capacidad para gestionar imprevistos y optimizar procesos.</li>
+                      <li>📢 Comunicación Efectiva – <br> Interacción clara y eficiente con diversos actores del sector.</li>
+                      <li>⏳ Trabajo Bajo Presión y Toma de Decisiones – <br> Gestión de múltiples tareas en entornos
+                          dinámicos.</li>
+                  </ul>
+              </div>
+            </div>
+      </section>
+  </section>
+
+  </aside>
+  
+  <section class="contacto-seccion">
+    <div class="container py-5">
+      <h2 class="text-center mb-4">Contáctanos</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Correo electrónico</label>
+            </div>
+            <button class="btn btn-primary w-100" type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="footer mt-5">
+    <div class="container text-center py-4">
+      <p class="mb-2">&copy; 2025 Tomás Briones Montt</p>
+      <div class="redes-sociales">
+        <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/Tomasm44" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- cdnj bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
