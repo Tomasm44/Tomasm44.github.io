@@ -23,7 +23,6 @@ i {
 
 .card {
     margin: 5px;
-    border-radius: 120px;
     background-color: #7A7A7A;
 }
 
@@ -31,11 +30,6 @@ i {
     margin-left: 42px;
     width: 200px;
     height: 200px;
-    border-radius: 180px;
-}
-
-.card-body {
-    
 }
 
 .btn {
